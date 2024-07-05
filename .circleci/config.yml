@@ -51,6 +51,8 @@ workflows:
             branches:
               only:
                 - master
+
+                
     jobs:
       - build_and_test
       # Follow instructions here to authenticate git for Heroku: https://devcenter.heroku.com/articles/git#http-git-authentication
