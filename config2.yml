@@ -20,7 +20,7 @@ jobs:
     <<: *default-executor
     steps:
       - checkout
-      - run: 
+      - run:  
           command: |
             if [ << pipeline.git.branch >> != "main" ]; then
               exit 1 
